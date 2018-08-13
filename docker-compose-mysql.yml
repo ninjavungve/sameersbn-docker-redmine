@@ -59,4 +59,4 @@ services:
     ports:
     - "10083:80"
     volumes:
-    - /srv/docker/redmine/redmine:/home/redmine/data
+    - /srv/docker/redmine/redmine_mysql:/home/redmine/data
